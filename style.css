@@ -1,0 +1,86 @@
+body {
+  background-color: #dccfe8;
+  padding-top: 75px;
+}
+
+h1 {
+  font-family: "roboto", Regular, sans-serif;
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-family: "roboto thin", Regular, sans-serif;
+  font-size: 10;
+  font-style: italic;
+}
+
+div.a {
+  line-height: 0.4;
+}
+
+div.picfront {
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.grid2x2 {
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: -25px -25px;
+}
+
+.grid2x2 > div {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+  margin: -25px -25px 10px;
+}
+
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+
+
+div.buttons {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+a:link,
+a:visited {
+  background-color: #bfadd0;
+  color: black;
+  padding: 14px 25px;
+  font-family: roboto thin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #9272b1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 306px);
+  grid-template-rows: repeat(6, 306px);
+  grid-gap: 30px 30px;
+  margin: 0 15px 0 15px;
+}
+
+.grid-item {}
